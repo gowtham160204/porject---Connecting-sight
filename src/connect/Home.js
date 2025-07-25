@@ -8,15 +8,15 @@ function Home() {
     <div className='Home-body' id='home'>
         <div className='home-header'>
                 <ul>
-                    <a href="#home"><Link to='/'><img src={imag} className='logo-icon'></img></Link></a>
-                    <a href="">connect</a>
-                    <a href="">My network</a>
-                    <a href="">Jobs</a>
-                    <a href="">messaging</a>
-                    <a href="">Notification</a>
-                    <a href="">Me</a>
-                    <a href="">For Business</a>
-                    <a href="" className='try'>Try Premium for Rs.0</a>
+                    <Link to='/'><img src={imag} className='logo-icon'></img></Link>
+                    <Link to='/connect'>Connect</Link>
+                    <Link to='/Mynetwork'>Mynetworks</Link>
+                    <Link to='/Job'>Job</Link>
+                    <Link to='/messages'>message</Link>
+                    <Link to='/notifications'>notification</Link>
+                    <Link to='/myself'>Me</Link>
+                    <Link to='/forbusiness'>For Business</Link>
+                    <Link to='/paymentpage'>Try Premium for Rs.0</Link>
                 </ul>
         </div>
         <div className='home-section' id='home'>
@@ -37,7 +37,7 @@ function Home() {
             <p>abcdefghijklmnop</p> */}
             <p>i am gowtham i am gkowtham i am gowtham </p>
             <h2>I am gowtham full stack developer</h2>
-            
+            <div className='oudh'></div>
 
           </div>
           <div className='home-news'>

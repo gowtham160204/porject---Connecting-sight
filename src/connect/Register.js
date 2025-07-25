@@ -3,7 +3,7 @@ import React from 'react'
 function Register() {
   return (
     <div>
-      yufuytfiftitfyitfyitdtyoy oygoyg  ou y uy o
+      <h1>Register</h1>
     </div>
   )
 }
