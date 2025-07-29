@@ -1,24 +1,25 @@
 import React from 'react'
 import '../../assets css/Header.scss'
+import { Link } from 'react-router-dom'
+import imag from '../../assets/imgs/IMG_20250701_194418.png'
 
 
-function Header(props) {
+function Header() {
   return (
-      <div className='Home-body' id='home'>
-        <div className='home-header'>
-                <ul>
-                    {/* <a href="#home"><Link to='/'><img src={imag} className='logo-icon'></img></Link></a> */}
-                    <a href="">connect</a>
-                    <a href="">My network</a>
-                    <a href="">Jobs</a>
-                    <a href="">messaging</a>
-                    <a href="">Notification</a>
-                    <a href="">Me</a>
-                    <a href="">For Business</a>
-                    <a href="" className='try'>Try Premium for Rs.0</a>
-                </ul>
-        </div>
-       </div>
+      
+         <ul>
+                    <Link to='/'><img src={imag} className='logo-icon'></img></Link>
+                    <Link to='/connect'><a>Connect</a></Link> 
+                    <Link to='/Mynetwork'><a>My Networks</a></Link>
+                    <Link to='/Job'><a>Job</a></Link>
+                    <Link to='/messages'><a>Message</a></Link>
+                    <Link to='/notifications'><a>Notification</a></Link>
+                    <Link to='/myself'><a>Me</a></Link>
+                    <Link to='/forbusiness'><a>For Business</a></Link>
+                    <Link to='/payment'><a className='try'>Try Premium for Rs.0</a></Link>
+          </ul>
+      
+       
   )
 }
 

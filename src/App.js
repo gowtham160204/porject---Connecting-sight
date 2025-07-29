@@ -12,6 +12,7 @@ import Messages from './connect/Messages'
 import Myself from './connect/Myself'
 import Business from './connect/Business'
 import Trypremium from './connect/Trypremium'
+import AdminPageforconnect from './connect/AdminPageforconnect'
 
 
 function App() {
@@ -19,7 +20,7 @@ function App() {
     <div>
       <Router>
       <Routes>
-      <Route path='/' element={<Login/>}></Route>
+      <Route path='/login' element={<Login/>}></Route>
       <Route path='/register' element={<Register/>}></Route>
       <Route path='/home' element={<Home/>}></Route>
       <Route path='/header' element={<Header/>}></Route>
@@ -31,6 +32,8 @@ function App() {
       <Route path='/myself' element={<Myself/>}></Route>
       <Route path='/forbusiness' element={<Business/>}></Route>
       <Route path='/payment' element={<Trypremium/>}></Route>
+      <Route path='/' element={<AdminPageforconnect/>}></Route>
+
       </Routes>
       </Router>
     </div>
