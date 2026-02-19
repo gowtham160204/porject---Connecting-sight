@@ -3,10 +3,10 @@ import '../../assets css/Header.scss'
 import { Link } from 'react-router-dom'
 import imag from '../../assets/imgs/IMG_20250701_194418.png'
 
-
 function Header() {
   return (
       
+
          <ul>
                     <Link to='/'><img src={imag} className='logo-icon'></img></Link>
                     <Link to='/connect'><a>Connect</a></Link> 

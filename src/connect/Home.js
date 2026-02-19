@@ -1,16 +1,20 @@
-import React from 'react'
+import React, { useEffect, useState } from 'react'
 import imag from '../assets/imgs/IMG_20250701_194418.png'
 import '../assets css/Home.scss'
 import Header from './commen/Header'
 import { Link } from 'react-router-dom'
+import Data from './Data'
+import Dataalign from './Dataalign'
 
 function Home() {
+
   return (
     <div className='Ho-body' id='home'>
         <div className='home-header'>
                 <Header/>
         </div>
         
+
         <div className='home-section' id='home'>
           <div className='home-profile'>
             <h3 className='bold'>Profile</h3>
@@ -29,11 +33,16 @@ function Home() {
             <p>i am gowtham i am gkowtham i am gowtham </p>
             <h2>I am gowtham full stack developer</h2>
             <div className='oudh'></div>
+            <Data/>
+            
 
           </div>
           <div className='home-news'>
             <h3 className='bold'>News updates</h3>
             <p>India's defence has been bolstered by addition mig-25k by getting it from US Military base</p>
+            <div className=''>
+
+            </div>
           </div>
         </div>
     </div>
