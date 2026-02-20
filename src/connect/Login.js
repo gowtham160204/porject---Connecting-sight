@@ -3,7 +3,7 @@ import { useNavigate } from "react-router-dom";
 // import { Link } from 'react-router-dom'
 // import Header from './commen/Header'
 import '../assets css/Login.scss'
-import { ToastContainer, toast } from 'react-toastify';
+import { ToastContainer} from 'react-toastify';
 
 const ADMIN = {
   name: "add",
@@ -23,6 +23,7 @@ function Login() {
 
   const [error, setError] = useState("");
   const navigate = useNavigate();
+  
 
   const handleChange = (e) =>
     setForm({ ...form, [e.target.name]: e.target.value });

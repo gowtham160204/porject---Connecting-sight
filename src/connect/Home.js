@@ -1,4 +1,4 @@
-import React, { useEffect, useState } from 'react'
+import React from 'react'
 // import imag from '../assets/imgs/IMG_20250701_194418.png'
 import '../assets css/Home.scss'
 import Header from './commen/Header'

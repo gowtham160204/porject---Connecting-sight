@@ -8,7 +8,7 @@ function Header() {
       
 
          <ul>
-                    <Link to='/home'><img src={imag} className='logo-icon'></img></Link>
+                    <img src={imag} className='logo-icon'/>
                     <Link to='/connect'><a>Connect</a></Link> 
                     <Link to='/Mynetwork'><a>My Networks</a></Link>
                     <Link to='/Job'><a>Job</a></Link>
