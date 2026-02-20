@@ -3,7 +3,7 @@ import React, { useState } from 'react'
 
 function Data() {
     const[input,setInput] = useState("")
-    const[all,setAll] = useState([])
+    // const[all,setAll] = useState([])
     function addData(){
         if(input){
             setAll((previousState) =>[...previousState, input] )

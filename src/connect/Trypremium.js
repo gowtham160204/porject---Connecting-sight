@@ -1,6 +1,6 @@
 import React from 'react'
 import Header from './commen/Header'
-import { Link } from 'react-router-dom'
+// import { Link } from 'react-router-dom'
 
 function Trypremium() {
   return (

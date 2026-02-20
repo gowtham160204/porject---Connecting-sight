@@ -1,7 +1,7 @@
 import React, { useState } from "react";
 import { useNavigate } from "react-router-dom";
-import { Link } from 'react-router-dom'
-import Header from './commen/Header'
+// import { Link } from 'react-router-dom'
+// import Header from './commen/Header'
 import '../assets css/Login.scss'
 import { ToastContainer, toast } from 'react-toastify';
 
@@ -13,7 +13,7 @@ const ADMIN = {
 };
 
 function Login() {
-    const notify = () => toast.success('Login');
+    //const notify = () => toast.success('Login');
     const [form, setForm] = useState({
     name: "",
     mail: "",
