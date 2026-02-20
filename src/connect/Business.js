@@ -1,4 +1,4 @@
-import React, { use, useEffect } from 'react'
+import React, { useEffect } from 'react'
 import '../assets css/Home.scss'
 import Header from './commen/Header'
 import AdminPageforconnect from './AdminPageforconnect'
