@@ -9,15 +9,15 @@ function Header() {
 
          <ul>
                     <img src={imag} className='logo-icon'/>
-                    <Link to='/connect'><a>Connect</a></Link> 
-                    <Link to='/Mynetwork'><a>My Networks</a></Link>
-                    <Link to='/Job'><a>Job</a></Link>
-                    <Link to='/messages'><a>Message</a></Link>
-                    <Link to='/notifications'><a>Notification</a></Link>
-                    <Link to='/myself'><a>Me</a></Link>
-                    <Link to='/forbusiness'><a>For Business</a></Link>
-                    <Link to='/payment'><a className='try'>Try Premium for Rs.0</a></Link>
-                    <Link to='/' color='red'><a>logout</a></Link>
+                    <Link to='/connect'>Connect</Link> 
+                    <Link to='/Mynetwork'>My Networks</Link>
+                    <Link to='/Job'>Job</Link>
+                    <Link to='/messages'>Message</Link>
+                    <Link to='/notifications'>Notification</Link>
+                    <Link to='/myself'>Me</Link>
+                    <Link to='/forbusiness'>For Business</Link>
+                    <Link to='/payment'className='Try'>Try Premium for Rs.0</Link>
+                    <Link to='/' color='red'>logout</Link>
           </ul>
       
        
