@@ -21,9 +21,9 @@ function App() {
     <div>
       <Router>
         <Routes>
-          <Route path='/login' element={<Login/>}></Route>
+          <Route path='/' element={<Login/>}></Route>
           <Route path='/register' element={<Register/>}></Route>
-          <Route path='/' element={<Home/>}></Route>
+          <Route path='/home' element={<Home/>}></Route>
           <Route path='/dataalign' element={<Dataalign/>}></Route>
           <Route path='/connect' element={<Connect/>}></Route>
           <Route path='/mynetwork' element={<Mynetwork/>}></Route>

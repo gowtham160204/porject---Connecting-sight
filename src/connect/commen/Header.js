@@ -8,7 +8,7 @@ function Header() {
       
 
          <ul>
-                    <Link to='/'><img src={imag} className='logo-icon'></img></Link>
+                    <Link to='/home'><img src={imag} className='logo-icon'></img></Link>
                     <Link to='/connect'><a>Connect</a></Link> 
                     <Link to='/Mynetwork'><a>My Networks</a></Link>
                     <Link to='/Job'><a>Job</a></Link>
@@ -17,6 +17,7 @@ function Header() {
                     <Link to='/myself'><a>Me</a></Link>
                     <Link to='/forbusiness'><a>For Business</a></Link>
                     <Link to='/payment'><a className='try'>Try Premium for Rs.0</a></Link>
+                    <Link to='/' color='red'><a>logout</a></Link>
           </ul>
       
        
