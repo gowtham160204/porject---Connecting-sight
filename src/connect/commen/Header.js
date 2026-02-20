@@ -8,7 +8,7 @@ function Header() {
       
 
          <ul>
-                    <img src={imag} className='logo-icon'/>
+                    <img src={imag} alt="Connecting Sight Logo" className='logo-icon'/>
                     <Link to='/connect'>Connect</Link> 
                     <Link to='/Mynetwork'>My Networks</Link>
                     <Link to='/Job'>Job</Link>
