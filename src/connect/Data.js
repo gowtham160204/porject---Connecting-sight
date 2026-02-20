@@ -6,7 +6,7 @@ function Data() {
     // const[all,setAll] = useState([])
     function addData(){
         if(input){
-            setAll((previousState) =>[...previousState, input] )
+            // setAll((previousState) =>[...previousState, input] )
             
         }
         
